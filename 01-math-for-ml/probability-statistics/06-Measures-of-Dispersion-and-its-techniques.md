@@ -17,7 +17,7 @@ If we compute the arithmetic mean for both datasets:
 
 \[\text{Mean}_B = \frac{-10 + 0 + 10}{3} = 0\]
 
-Both datasets have an average of **0**, but they are completely different in reality. The values in Dataset B are twice as far from the center as the values in Dataset A. Without measuring dispersion, a machine learning model would treat these two environments as completely identical, completely missing the fact that Dataset B has much more volatility and risk.
+Both datasets have an average of **0**, but they are completely different in reality. The values in Dataset B are twice as far from the center as the values in Dataset A. Without measuring dispersion, a machine learning model would treat these two environments as completely identical, missing the fact that Dataset B has much more volatility and risk.
 
 ---
 
