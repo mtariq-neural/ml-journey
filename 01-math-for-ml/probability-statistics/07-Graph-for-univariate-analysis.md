@@ -37,8 +37,7 @@ A **Histogram** looks similar to a bar chart, but there are no gaps between the 
 
 **Scenario:** Plotting the distribution of exam scores for a class of 30 students, grouped into bins of 10 marks each.
 
-![Distribution of Class Exam Scores](./07-images/exam-scores-histogram.jpg)
-
+![Distribution of Class Exam Scores](./assets/07-univariate-analysis/exam-scores-histogram.jpg)
 Looking at this histogram, most students scored between 70 and 89, while very few scored below 50 or in the 90s. The bars touch each other because the x-axis is continuous. A score of 69 flows directly into the 70-79 bin, unlike a bar chart where each category is a separate, unrelated thing.
 
 ### Visual Tool: Kernel Density Estimate (KDE) / Density Plot
