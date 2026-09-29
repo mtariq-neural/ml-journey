@@ -57,5 +57,16 @@ To visualize this relationship, we split the continuous numerical data across th
 
 **Scenario:** Comparing the **Average Delivery Time** (Numerical) across three different **Delivery Zones** (Categorical: Zone A, Zone B, Zone C).
 
-* **Bar Plot (With Error Bars):** The height of the bar displays the mean or median value for that specific group (e.g., Zone A takes an average of 15 minutes, while Zone C takes 45 minutes).
-* **Box Plot (Alternative/Advanced):** While a basic bar chart only gives us the single average value, a box plot displays the complete shape, spread, median, and outliers of the numerical data within each category group, giving a deeper understanding of variations within each group.
+#### Bar Plot (With Error Bars)
+The height of the bar displays the mean value for that specific zone. The small vertical line on top of each bar (the error bar) shows the standard deviation, giving a rough sense of how much delivery times vary within that zone, not just the average.
+
+![Average delivery time by zone, bar plot](./assets/08-bivariate-analysis/bar.png)
+
+Zone A has the fastest average delivery time, followed by Zone B, then Zone C. The error bars also grow larger from Zone A to Zone C, which is a hint that delivery times in Zone C are not just slower on average, but also more inconsistent.
+
+#### Box Plot (Alternative/Advanced)
+While a bar chart only gives us the single average value, a box plot displays the complete shape, spread, median, and outliers of the numerical data within each category.
+
+![Average delivery time by zone, box plot](./assets/08-bivariate-analysis/box.png)
+
+The box plot confirms the same trend the bar plot showed, Zone C takes longer on average than Zone A or B. But it also shows something the bar plot could not: the box for Zone C is taller than the others, meaning its delivery times are more spread out. The bar plot alone hides this, since it only shows a single number (the mean) per zone. This is exactly why box plots are considered a step up: they reveal the shape and consistency of data, not just its center.
