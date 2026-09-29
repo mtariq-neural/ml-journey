@@ -94,13 +94,15 @@ $$\text{CV} = \left( \frac{\sigma}{\mu} \right) \times 100\%$$
 
 **Worked example:** say we're comparing the daily price swings of two assets.
 
-* **Stock A:** mean price $50, standard deviation $5
-  $$\text{CV}_A = \frac{5}{50} \times 100\% = 10\%$$
+* **Stock A:** mean price \$50, standard deviation \$5
 
-* **Crypto B:** mean price $50{,}000, standard deviation $2{,}500
-  $$\text{CV}_B = \frac{2500}{50000} \times 100\% = 5\%$$
+$$\text{CV}_A = \frac{5}{50} \times 100\% = 10\%$$
 
-Even though Crypto B's standard deviation ($2,500) looks massive compared to Stock A's ($5), CV shows that Stock A is actually relatively more volatile, 10% of its price versus 5% for B. This is the whole point of CV. It lets you compare spread across things with completely different scales or units, like comparing weight in kilograms to weight in pounds.
+* **Crypto B:** mean price \$50,000, standard deviation \$2,500
+
+$$\text{CV}_B = \frac{2500}{50000} \times 100\% = 5\%$$
+
+Even though Crypto B's standard deviation (\$2,500) looks massive compared to Stock A's (\$5), CV shows that Stock A is actually relatively more volatile, 10% of its price versus 5% for B. This is the whole point of CV. It lets you compare spread across things with completely different scales or units, like comparing weight in kilograms to weight in pounds.
 
 ---
 
